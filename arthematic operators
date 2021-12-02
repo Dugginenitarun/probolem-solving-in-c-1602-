@@ -1,19 +1,19 @@
-// working of arthematic operators
 #include <stdio.h>
 int main()
 {
-	int a,b,c;
+	int a,b,c,d,e;
+	float f;
 	printf("enter the value of a");
 	scanf("%d",&a);
 	printf("enter the value of b");
 	scanf("%d",&b);
 	c=a+b;
 	printf("\naddition of two numbers is %d",c);
-	c=a-b;
-	printf("\nsubtraction of two numbers %d",c);
-	c=a*b;
-	printf("\nmultiplication of two numbers %d",c);
-	c=a/b;
-	printf("\ndivision of two numbers %d",c);
+	d=a-b;
+	printf("\nsubtraction of two numbers %d",d);
+	e=a*b;
+	printf("\nmultiplication of two numbers %d",e);
+	f=a/b;
+	printf("\ndivision of two numbers %d",f);
 	return 0;
 }
