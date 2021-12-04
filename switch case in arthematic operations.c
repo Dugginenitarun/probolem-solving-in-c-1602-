@@ -30,7 +30,7 @@ int main() {
     case 5:
     g=a%b;
     printf("%f",g);
-    
+    break;
 }
     return 0;
 	}
