@@ -2,7 +2,7 @@
 int main() {
    
 	int a,b,c,d,e,ch;
-	float f,g,h;
+	float f,g;
 	printf("enter the value of a");
     scanf("%d",&a);
 	printf("enter the value of b");
@@ -25,11 +25,11 @@ int main() {
     break;
     case 4:
     f=a/b;
-    printf("%d",f);
+    printf("%f",f);
     break;
     case 5:
     g=a%b;
-    printf("%d",g);
+    printf("%f",g);
     
 }
     return 0;
