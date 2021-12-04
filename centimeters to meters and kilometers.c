@@ -11,7 +11,7 @@ int main()
     km=cm/100000.0;
 
     printf(" %.2f\n", m);
-    printf(" %.2f km", km);
+    printf(" %.2f\n", km);
 
     return 0;
 }
